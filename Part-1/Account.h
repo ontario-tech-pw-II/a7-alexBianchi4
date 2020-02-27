@@ -13,7 +13,7 @@ class Account{
 		double getBalance() const; // return the account balance
 		void setBalance( double ); // sets the account balance
 
-		public:
+	public:
 		Account( double = 0.0); // constructor initializes balance
 	
 		virtual void credit(double);
